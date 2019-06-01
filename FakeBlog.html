@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Fake Bacon</title>
+        <style>
+            .fieldset-auto-width {
+                display: inline-block;
+            }
+            #wrapper {
+                width: 60%;
+                margin: 0 auto;
+}
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Fake Bacon Blog</h1><br />
+
+            <ul>
+                <li><h3>Cooking bacon</h3><br />
+                <img width="375" alt="GIF of bacon cooking" src="bacon.gif" /></li>
+                <li><h3>Cooked bacon</h3><br />
+                <img width="375" alt="Picture of cooked bacon" src="cooked_bacon.jpg" /></li>
+                <li><h3>Kevin Bacon</h3>(made out of bacon)<br />
+                <img width="375" alt="Picture of Kevin Bacon made out of bacon" src="kevin_bacon.jpg" /></li>
+            </ul>
+            
+            <p>I love bacon.  No, not the <a href="https://learnbacon.com/" target="new">organic chemistry tutorials</a>, 
+                I'm talking about real bacon. However, not all bacon is real.  Let's look at some fake bacon.</p><br />
+            <table>
+                    <caption><h3>Top Five Fake Bacons</h3></caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Status</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sir Francis Bacon</td>
+                        <td>Fake</td>
+                        <td>Confirmed fake through rigorous testing, and experimentation.</td>
+                    </tr>
+                    <tr>
+                        <td>The other Francis Bacon</td>
+                        <td>Fake</td>
+                        <td>Thought to be grotesquely fake, but draw your own conclusion.</td>
+                    </tr>
+                    <tr>
+                        <td>Jenny Bacon</td>
+                        <td>Fake</td>
+                        <td>Confirmed fake by the B.V.U. (Bacon Victims Unit)</td>
+                    </tr>
+                    <tr>
+                        <td>Henry Bacon</td>
+                        <td>Fake</td>
+                        <td>Details of his monumental achievements are all Greek to me.  Still, he's fake.</td>
+                    </tr>
+                    <tr>
+                        <td>Kevin Bacon</td>
+                        <td>Fake</td>
+                        <td>Approximately Fake (+/- 6 deg.)</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br /><br />
+            <form>
+                <div>
+                    <fieldset class="fieldset-auto-width">
+                        <legend>How do you like your bacon?</legend>
+                        <input type="radio" name="ba_con" value="Fried">Fried<br>
+                        <input type="radio" name="ba_con" value="Baked">Baked<br>
+                        <input type="radio" name="ba_con" value="Kevin">Kevin<br><br>
+                        <label for="name">Name: </label>
+                        <input id="name" type="text" /><br />
+                        <label for="email">Email: </label>
+                        <input id="email" type="email" /><br /><br><br>
+                        
+                        <label for="long">How long have you loved bacon?</label><br /><br>
+                        <select name="long" id="long">
+                            <option value="zeroto3">0-3 years</option>
+                            <option value="fourto9">4-9 years</option>
+                            <option value="tenplus">10+ years</option>
+                        </select><br><br>
+                        <input type="submit" id="submit">
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
